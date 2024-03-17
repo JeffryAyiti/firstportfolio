@@ -1,0 +1,149 @@
+
+.page-content
+{
+width: 100%;
+}
+.homme-banner
+{
+width: 100%;
+text-align: center;
+padding: 0px 15px;
+margin-left: 0px;
+text-align: center;
+}
+.word {
+  font-size: 20px;
+  margin-top: 30px;
+  height:2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+
+  
+}
+
+.homme-banner p
+{
+font-size: 15px;
+margin-top: 50px;
+margin-bottom:10px;
+color: white;
+}
+
+
+
+#text-content
+{
+width: 100%;
+grid-template-columns:repeat(1,1fr);
+}
+#text-content p
+{
+font-size: 15px;
+}
+#text-content h3
+{
+font-size: 15px;
+}
+#activities
+{
+width: 100%;
+grid-template-columns: repeat(1,1fr);
+margin-left: 0;
+}
+.activities-item
+{
+  padding: 0px 15px;
+  margin-left: 0px;
+}
+#resume-t
+{
+  width: 100%;
+  grid-template-columns: repeat(1,1fr);
+}
+.foot-container
+{
+  width: 50%;
+  padding: 70px 30px 20px;
+}
+.footer-nav ul
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+list-style: none;
+padding: 0;
+} 
+
+.foot-container
+{
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+#skills
+{
+  float: left;
+  width: 100%;
+  background-color:rgb(0,27, 54);
+  padding: 30px 10%;
+} 
+#contact p
+{
+text-align: center;
+line-height: 20px;
+}
+#contactform
+{
+
+width: 50%;
+padding: 0px 15px;
+margin-left: 10%;
+}
+button
+{
+width: 100%;
+}
+
+
+
+
+
+
+
+
+#menu
+{
+position: fixed;
+width: 70%;
+background:rgb(190,180, 52);
+left:0px;
+top: 0px;
+box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.9);
+line-height: 35px;
+padding: 30px 15px;
+display: none;
+z-index:1000;
+}
+#menu a
+{
+color: white;
+width: 100%;
+float: left;
+display: block;
+}
+#btn-menu
+{
+float: right;
+width: 30px;
+margin-top: 20px;
+}
+#btn-menu div
+{
+float: left;
+width: 100%;
+height: 5px;
+background:rgb(0,27, 54);
+margin-bottom: 3px;
+}
